@@ -1,0 +1,2620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jakka Sekhar Babu | Cybersecurity Analyst</title>
+
+    <meta name="description"
+          content="Jakka Sekhar Babu - Cybersecurity Analyst with practical experience in penetration testing, red teaming, vulnerability assessment and defensive security.">
+
+    <meta name="keywords"
+          content="Jakka Sekhar Babu, Cybersecurity Analyst, Ethical Hacking, VAPT, Penetration Testing, Red Teaming">
+
+    <meta name="author" content="Jakka Sekhar Babu">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}?v=20260926-final">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     GLOBAL PARTICLE BACKGROUND
+========================================================= -->
+
+<canvas id="particleCanvas"></canvas>
+
+<div class="cyber-overlay"></div>
+
+<div class="scanlines"></div>
+
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+
+            JS<span>B</span>
+
+            <i></i>
+
+        </a>
+
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home" class="active">
+                Home
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#skills">
+                Skills
+            </a>
+
+            <a href="#experience">
+                Experience
+            </a>
+
+            <a href="#projects">
+                Projects
+            </a>
+
+            <a href="#certificates">
+                Certificates
+            </a>
+
+            <a href="#education">
+                Education
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a href="{{ url_for('static', filename='assets/resume.pdf') }}"
+           class="resume-btn"
+           download>
+
+            <span>
+                Download Resume
+            </span>
+
+            <b>
+                ↓
+            </b>
+
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open Menu">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main>
+
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-glow hero-glow-one"></div>
+
+    <div class="hero-glow hero-glow-two"></div>
+
+
+    <div class="container hero-container">
+
+
+        <!-- HERO CONTENT -->
+
+        <div class="hero-content">
+
+
+            <div class="hero-terminal">
+
+                <span class="terminal-dot"></span>
+
+                <span>
+                    root@jsb:~$ ./initialize_profile
+                </span>
+
+            </div>
+
+
+            <p class="hero-intro">
+                Hi, I'm
+            </p>
+
+
+            <h1 class="hero-name">
+
+                <span class="name-line name-first">JAKKA</span>
+
+                <span class="name-line name-second">
+                    <span class="name-red">SEKHAR</span>
+                    <span class="name-white">BABU</span>
+                </span>
+
+            </h1>
+
+
+            <div class="hero-role">
+
+                <span class="role-prefix">
+                    >
+                </span>
+
+                <span id="typingText">
+                    Cybersecurity Analyst
+                </span>
+
+                <span class="typing-cursor">
+                    _
+                </span>
+
+            </div>
+
+
+            <p class="hero-description">
+
+                Passionate Cybersecurity Analyst with practical experience in identifying
+                security vulnerabilities and understanding how real-world attacks work.
+                Experienced in penetration testing, vulnerability assessment, red teaming,
+                web security and defensive security, with hands-on exposure to tools such
+                as Nmap, Burp Suite, Metasploit and Wireshark.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#projects"
+                   class="btn primary-btn">
+
+                    <span>
+                        Explore Projects
+                    </span>
+
+                    <b>
+                        →
+                    </b>
+
+                </a>
+
+
+                <a href="#contact"
+                   class="btn secondary-btn">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+
+            <div class="social-links">
+
+
+                <a href="https://www.linkedin.com/in/jakka-sekharbabu/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <span>
+                        IN
+                    </span>
+
+                    LinkedIn
+
+                </a>
+
+
+                <a href="https://github.com/SekharNaiyudu"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <span>
+                        GH
+                    </span>
+
+                    GitHub
+
+                </a>
+
+
+                <a href="mailto:sekharnaiyudu@gmail.com">
+
+                    <span>
+                        @
+                    </span>
+
+                    Email
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             CYBER 3D VISUAL
+        ================================================== -->
+
+        <div class="hero-visual">
+
+
+            <div class="visual-ring ring-one"></div>
+
+            <div class="visual-ring ring-two"></div>
+
+            <div class="visual-ring ring-three"></div>
+
+
+            <div class="orbit-dot orbit-dot-one"></div>
+
+            <div class="orbit-dot orbit-dot-two"></div>
+
+            <div class="orbit-dot orbit-dot-three"></div>
+
+
+            <div class="cyber-core">
+
+                <div class="core-inner">
+
+
+                    <div class="core-symbol">
+                        JSB
+                    </div>
+
+
+                    <div class="core-status">
+                        SYSTEM SECURE
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-node node-one">
+
+                <span>
+                    VAPT
+                </span>
+
+            </div>
+
+
+            <div class="floating-node node-two">
+
+                <span>
+                    RED TEAM
+                </span>
+
+            </div>
+
+
+            <div class="floating-node node-three">
+
+                <span>
+                    OSINT
+                </span>
+
+            </div>
+
+
+            <div class="floating-node node-four">
+
+                <span>
+                    AI
+                </span>
+
+            </div>
+
+            <div class="floating-node node-five">
+                <span>NETWORK</span>
+            </div>
+
+            <div class="floating-node node-six">
+            <span>Cyber Security</span>
+            </div>
+
+
+            <!-- =================================================
+     AI VOICE ASSISTANT CHARACTER
+================================================== -->
+
+<div class="ai-assistant-character">
+
+    <!-- Glowing platform -->
+    <div class="ai-platform">
+        <div class="platform-ring platform-ring-one"></div>
+        <div class="platform-ring platform-ring-two"></div>
+        <div class="platform-ring platform-ring-three"></div>
+        <div class="platform-core"></div>
+    </div>
+
+    <!-- AI Character -->
+    <img
+        src="{{ url_for('static', filename='assets/ai-character.png') }}"
+        alt="AI Cybersecurity Assistant"
+        class="ai-character"
+    >
+
+    <!-- Assistant status -->
+    <div class="ai-assistant-status">
+        <span class="ai-status-dot"></span>
+        <span>AI ONLINE</span>
+    </div>
+
+    <!-- Voice button -->
+    <button
+        type="button"
+        class="ai-talk-button"
+        id="aiTalkButton"
+        aria-label="Talk to AI">
+
+        <span class="ai-mic-icon">🎙</span>
+        <span>Talk to AI</span>
+
+    </button>
+
+</div>
+
+        </div>
+
+
+        
+
+    </div>
+
+
+
+    <!-- =====================================================
+         HERO STATS
+    ====================================================== -->
+
+    <div class="container hero-stats">
+
+
+        <div class="stat-card">
+
+            <span class="stat-number">
+                01
+            </span>
+
+            <span class="stat-label">
+                Cybersecurity Mentor
+            </span>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span class="stat-number">
+                02
+            </span>
+
+            <span class="stat-label">
+                Security Roles
+            </span>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span class="stat-number">
+                06
+            </span>
+
+            <span class="stat-label">
+                Featured Projects
+            </span>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span class="stat-number">
+                ∞
+            </span>
+
+            <span class="stat-label">
+                Learning Mindset
+            </span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about" class="section about-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-number">01</span>
+
+            <div>
+                <span class="section-label">PROFILE</span>
+
+                <h2>
+                    Professional
+                    <strong>Summary</strong>
+                </h2>
+            </div>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-content">
+
+                <div class="section-tag">
+                    WHO AM I?
+                </div>
+
+                <p>
+                    Passionate Cybersecurity Analyst with practical
+                    experience in identifying security vulnerabilities
+                    and understanding how real-world attacks work.
+                </p>
+
+                <p>
+                    Experienced in penetration testing, red teaming,
+                    vulnerability assessment, and defensive security
+                    using tools such as Nmap, Burp Suite, Metasploit,
+                    and Wireshark.
+                </p>
+
+                <p>
+                    Familiar with OWASP Top 10, MITRE ATT&CK, IDS/IPS,
+                    firewalls, and social engineering, with a strong
+                    interest in learning, solving security challenges,
+                    and helping organizations improve their security.
+                </p>
+
+                <div class="about-highlights">
+
+                    <div>
+                        <span>01</span>
+                        <p>Security Testing</p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <p>Vulnerability Research</p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <p>Cybersecurity Training</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="about-right">
+
+                <img
+                    src="static/images/profile.png"
+                    alt="Profile"
+                    class="about-profile-image"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills"
+         class="section skills-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                02
+            </span>
+
+
+            <div>
+
+                <span class="section-label">
+                    ARSENAL
+                </span>
+
+
+                <h2>
+
+                    Technical
+
+                    <strong>
+                        Skills
+                    </strong>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skills-grid">
+
+
+            <article class="skill-card cyber-card">
+
+
+                <div class="skill-icon">
+                    &lt;/&gt;
+                </div>
+
+
+                <h3>
+                    Security Tools
+                </h3>
+
+
+                <div class="skill-tags">
+
+                    <span>
+                        Metasploit
+                    </span>
+
+                    <span>
+                        Burp Suite
+                    </span>
+
+                    <span>
+                        Wireshark
+                    </span>
+
+                    <span>
+                        Nmap
+                    </span>
+
+                    <span>
+                        Aircrack-ng
+                    </span>
+
+                    <span>
+                        Hydra
+                    </span>
+
+                    <span>
+                        John the Ripper
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="skill-card cyber-card">
+
+
+                <div class="skill-icon">
+                    OS
+                </div>
+
+
+                <h3>
+                    Operating Systems
+                </h3>
+
+
+                <div class="skill-tags">
+
+                    <span>
+                        Kali Linux
+                    </span>
+
+                    <span>
+                        Parrot OS
+                    </span>
+
+                    <span>
+                        Windows
+                    </span>
+
+                    <span>
+                        Android
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="skill-card cyber-card">
+
+
+                <div class="skill-icon">
+                    01
+                </div>
+
+
+                <h3>
+                    Cybersecurity
+                </h3>
+
+
+                <div class="skill-tags">
+
+                    <span>
+                        Vulnerability Assessment
+                    </span>
+
+                    <span>
+                        Penetration Testing
+                    </span>
+
+                    <span>
+                        Web Security
+                    </span>
+
+                    <span>
+                        Network Security
+                    </span>
+
+                    <span>
+                        OSINT
+                    </span>
+
+                    <span>
+                        Steganography
+                    </span>
+
+                    <span>
+                        Malware Analysis
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="skill-card cyber-card">
+
+
+                <div class="skill-icon">
+                    #
+                </div>
+
+
+                <h3>
+                    Security Knowledge
+                </h3>
+
+
+                <div class="skill-tags">
+
+                    <span>
+                        OWASP Top 10
+                    </span>
+
+                    <span>
+                        MITRE ATT&CK
+                    </span>
+
+                    <span>
+                        Social Engineering
+                    </span>
+
+                    <span>
+                        IDS/IPS
+                    </span>
+
+                    <span>
+                        Firewalls
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="skill-card cyber-card">
+
+
+                <div class="skill-icon">
+                    ∞
+                </div>
+
+
+                <h3>
+                    Professional Skills
+                </h3>
+
+
+                <div class="skill-tags">
+
+                    <span>
+                        Communication
+                    </span>
+
+                    <span>
+                        Team Collaboration
+                    </span>
+
+                    <span>
+                        Technical Reporting
+                    </span>
+
+                    <span>
+                        Time Management
+                    </span>
+
+                    <span>
+                        Problem Solving
+                    </span>
+
+                    <span>
+                        Cybersecurity Awareness
+                    </span>
+
+                    <span>
+                        Public Speaking
+                    </span>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EXPERIENCE
+========================================================= -->
+
+<section id="experience"
+         class="section experience-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                03
+            </span>
+
+
+            <div>
+
+                <span class="section-label">
+                    CAREER
+                </span>
+
+
+                <h2>
+
+                    Work
+
+                    <strong>
+                        Experience
+                    </strong>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline">
+
+
+            <article class="timeline-item">
+
+
+                <div class="timeline-marker">
+                    01
+                </div>
+
+
+                <div class="timeline-content cyber-card">
+
+
+                    <span class="timeline-date">
+                        Mar 2025 – Present
+                    </span>
+
+
+                    <h3>
+                        Cybersecurity Mentor
+                    </h3>
+
+
+                    <h4>
+                        SynthoQuest Pvt. Ltd., Guntur
+                    </h4>
+
+
+                    <ul>
+
+                        <li>
+                            Conduct cybersecurity training sessions on
+                            ethical hacking, VAPT, and security fundamentals.
+                        </li>
+
+                        <li>
+                            Guide students through hands-on exercises using
+                            Nmap, Burp Suite, Wireshark, and Metasploit.
+                        </li>
+
+                        <li>
+                            Conduct workshops and cybersecurity awareness
+                            sessions for students.
+                        </li>
+
+                        <li>
+                            Support students in cybersecurity projects,
+                            practical labs, and technical challenges.
+                        </li>
+
+                        <li>
+                            Prepare simple learning materials and practical
+                            exercises to help students understand
+                            cybersecurity concepts.
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="timeline-item">
+
+
+                <div class="timeline-marker">
+                    02
+                </div>
+
+
+                <div class="timeline-content cyber-card">
+
+
+                    <span class="timeline-date">
+                        Nov 2024 – Mar 2025
+                    </span>
+
+
+                    <h3>
+                        Cybersecurity Intern
+                    </h3>
+
+
+                    <h4>
+                        SynthoQuest Pvt. Ltd., Guntur
+                    </h4>
+
+
+                    <ul>
+
+                        <li>
+                            Performed vulnerability assessments using
+                            Nmap, Nikto, and OpenVAS.
+                        </li>
+
+                        <li>
+                            Conducted basic web application security testing
+                            using Burp Suite and SQLMap.
+                        </li>
+
+                        <li>
+                            Documented security findings and prepared
+                            vulnerability assessment reports.
+                        </li>
+
+                        <li>
+                            Developed small Python scripts to automate
+                            basic reconnaissance tasks.
+                        </li>
+
+                        <li>
+                            Worked with the team on phishing and social
+                            engineering simulations.
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section id="projects"
+         class="section projects-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                04
+            </span>
+
+
+            <div>
+
+                <span class="section-label">
+                    LAB
+                </span>
+
+
+                <h2>
+
+                    Featured
+
+                    <strong>
+                        Projects
+                    </strong>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="projects-grid">
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    01
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        WAR-ROOM
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        CYBERSECURITY PLATFORM
+                    </span>
+
+
+                    <h3>
+                        WAR-ROOM
+                    </h3>
+
+
+                    <p>
+
+                        Built a platform to manage cybersecurity workshops
+                        and hackathons in one place. It handles student
+                        registration, challenges, toolkit sharing, answer
+                        submission, scoring, and leaderboards.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            FastAPI
+                        </span>
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            SQLite
+                        </span>
+
+                        <span>
+                            HTML
+                        </span>
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            JavaScript
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/WAR-ROOM"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    02
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        COMMANDGPT
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        AI + CYBERSECURITY
+                    </span>
+
+
+                    <h3>
+                        CommandGPT
+                    </h3>
+
+
+                    <p>
+
+                        Built an AI-based assistant that helps users
+                        understand and generate Linux and cybersecurity
+                        commands, making command-line tasks easier to learn
+                        during cybersecurity practice.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            AI
+                        </span>
+
+                        <span>
+                            Linux
+                        </span>
+
+                        <span>
+                            Cybersecurity
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/CommandGPT"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    03
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        PHISHSNARE
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        SECURITY TOOL
+                    </span>
+
+
+                    <h3>
+                        PhishSnare
+                    </h3>
+
+
+                    <p>
+
+                        Built a command-line tool to check URLs for common
+                        phishing indicators such as suspicious keywords,
+                        IP-based URLs, and URL patterns.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            CLI
+                        </span>
+
+                        <span>
+                            Security
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/phishsnare-cli"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    04
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        STEGCLOAK
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        STEGANOGRAPHY
+                    </span>
+
+
+                    <h3>
+                        StegCloak
+                    </h3>
+
+
+                    <p>
+
+                        Built a tool to hide and extract messages inside
+                        image files using the LSB technique with password
+                        protection for hidden data.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            LSB
+                        </span>
+
+                        <span>
+                            Steganography
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/stegcloak"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    05
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        SQ-CERT
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        WEB APPLICATION
+                    </span>
+
+
+                    <h3>
+                        SynthoQuest Certificate Generator
+                    </h3>
+
+
+                    <p>
+
+                        Built a web-based tool to generate certificates
+                        using predefined templates and student details.
+                        Automated certificate numbering and generation.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            Flask
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/synthoquest-certificate-generator"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card cyber-card">
+
+
+                <div class="project-number">
+                    06
+                </div>
+
+
+                <div class="project-visual">
+                    <span>
+                        KEYVENOM
+                    </span>
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-category">
+                        SECURITY TESTING
+                    </span>
+
+
+                    <h3>
+                        KeyVenom
+                    </h3>
+
+
+                    <p>
+
+                        Built a security testing tool that automates parts
+                        of the payload generation and testing process using
+                        Metasploit in controlled lab environments.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>
+                            Shell
+                        </span>
+
+                        <span>
+                            Metasploit
+                        </span>
+
+                        <span>
+                            Security Testing
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/SekharNaiyudu/keyvenom"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        View Project →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CERTIFICATES
+========================================================= -->
+
+<section id="certificates"
+         class="section certificates-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                05
+            </span>
+
+
+            <div>
+
+                <span class="section-label">
+                    CREDENTIALS
+                </span>
+
+
+                <h2>
+
+                    Professional
+
+                    <strong>
+                        Certificates
+                    </strong>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="certificates-grid">
+
+
+            <article class="certificate-card cyber-card">
+
+
+                <span class="certificate-id">
+                    CERT_01
+                </span>
+
+
+                <div class="certificate-icon">
+                    CRTOM
+                </div>
+
+
+                <h3>
+                    Certified Red Team Operations Management
+                </h3>
+
+
+                <p>
+                    CRTOM
+                </p>
+
+
+            </article>
+
+
+
+            <article class="certificate-card cyber-card">
+
+
+                <span class="certificate-id">
+                    CERT_02
+                </span>
+
+
+                <div class="certificate-icon">
+                    FORAGE
+                </div>
+
+
+                <h3>
+                    Cybersecurity Analyst Job Simulation
+                </h3>
+
+
+                <p>
+                    Forage
+                </p>
+
+
+            </article>
+
+
+
+            <article class="certificate-card cyber-card">
+
+
+                <span class="certificate-id">
+                    CERT_03
+                </span>
+
+
+                <div class="certificate-icon">
+                    CNSP
+                </div>
+
+
+                <h3>
+                    Network Security Practitioner
+                </h3>
+
+
+                <p>
+                    CNSP
+                </p>
+
+
+            </article>
+
+
+
+            <article class="certificate-card cyber-card">
+
+
+                <span class="certificate-id">
+                    CERT_04
+                </span>
+
+
+                <div class="certificate-icon">
+                    CEH
+                </div>
+
+
+                <h3>
+                    Certified Ethical Hacker
+                </h3>
+
+
+                <p>
+                    SynthoQuest Pvt. Ltd.
+                </p>
+
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<section id="education"
+         class="section education-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                06
+            </span>
+
+
+            <div>
+
+                <span class="section-label">
+                    ACADEMICS
+                </span>
+
+
+                <h2>
+
+                    My
+
+                    <strong>
+                        Education
+                    </strong>
+
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="education-card cyber-card">
+
+
+            <div class="education-icon">
+                B.SC
+            </div>
+
+
+            <div class="education-content">
+
+
+                <span class="education-date">
+                    2022 – 2025
+                </span>
+
+
+                <h3>
+                    B.Sc. in Computer Science
+                </h3>
+
+
+                <p>
+                    Hindu College, Guntur
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SECURITY DOMAINS
+========================================================= -->
+
+<section class="section knowledge-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-number">
+                07
+            </span>
+
+
+            <div>
+
+
+                <span class="section-label">
+                    KNOWLEDGE BASE
+                </span>
+
+
+                <h2>
+
+                    Security
+
+                    <strong>
+                        Domains
+                    </strong>
+
+                </h2>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="knowledge-grid">
+
+
+            <!-- DOMAIN 01 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    01
+                </span>
+
+
+                <h3>
+                    Web Security
+                </h3>
+
+
+                <p>
+
+                    Protects web applications from common security threats.
+                    Covers OWASP risks, authentication, input validation,
+                    and secure application testing.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 02 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    02
+                </span>
+
+
+                <h3>
+                    Network Security
+                </h3>
+
+
+                <p>
+
+                    Focuses on protecting networks, systems, and communication.
+                    Includes network monitoring, protocols, firewalls,
+                    IDS/IPS, and traffic analysis.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 03 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    03
+                </span>
+
+
+                <h3>
+                    Penetration Testing
+                </h3>
+
+
+                <p>
+
+                    Simulates controlled attacks to identify security weaknesses.
+                    Includes reconnaissance, scanning, exploitation,
+                    and security validation.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 04 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    04
+                </span>
+
+
+                <h3>
+                    Vulnerability Assessment
+                </h3>
+
+
+                <p>
+
+                    Identifies and analyzes security weaknesses in systems.
+                    Covers vulnerability scanning, risk identification,
+                    validation, and security reporting.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 05 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    05
+                </span>
+
+
+                <h3>
+                    Red Teaming
+                </h3>
+
+
+                <p>
+
+                    Uses controlled attack simulations to evaluate security.
+                    Focuses on adversary techniques, attack paths,
+                    detection gaps, and defensive improvement.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 06 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    06
+                </span>
+
+
+                <h3>
+                    OSINT
+                </h3>
+
+
+                <p>
+
+                    Collects and analyzes publicly available information.
+                    Helps identify digital footprints, exposed assets,
+                    domains, accounts, and relevant security intelligence.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 07 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    07
+                </span>
+
+
+                <h3>
+                    Malware Analysis
+                </h3>
+
+
+                <p>
+
+                    Studies malicious software to understand its behavior.
+                    Covers static and dynamic analysis, indicators,
+                    execution patterns, and potential security impact.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- DOMAIN 08 -->
+
+            <div class="knowledge-item cyber-card">
+
+
+                <span>
+                    08
+                </span>
+
+
+                <h3>
+                    Steganography
+                </h3>
+
+
+                <p>
+
+                    Focuses on hiding information inside digital media.
+                    Includes image-based data hiding, extraction,
+                    analysis, and security awareness.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     WORKSHOPS & MENTORING
+========================================================= -->
+
+<section class="section mentoring-section">
+
+    <div class="container">
+
+        <!-- SECTION HEADING -->
+        <div class="section-heading">
+
+            <span class="section-number">
+                08
+            </span>
+
+            <div>
+
+                <span class="section-label">
+                    KNOWLEDGE SHARING
+                </span>
+
+                <h2>
+                    Workshops &
+                    <strong>Mentoring</strong>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <!-- MAIN MENTORING LAYOUT -->
+        <div class="mentoring-layout">
+
+
+            <!-- =========================
+                 LEFT CONTENT
+            ========================== -->
+
+            <div class="mentoring-left">
+
+
+                <!-- DESCRIPTION -->
+                <div class="mentoring-text">
+
+                    <h3>
+                        Cybersecurity Training & Awareness
+                    </h3>
+
+                    <p>
+                        Conduct cybersecurity training sessions on ethical
+                        hacking, VAPT, and security fundamentals.
+                    </p>
+
+                    <p>
+                        Guide students through practical exercises,
+                        cybersecurity projects, labs, and technical challenges.
+                    </p>
+
+                    <p>
+                        Conduct workshops and cybersecurity awareness sessions
+                        and prepare simple learning materials and practical
+                        exercises.
+                    </p>
+
+                </div>
+
+
+                <!-- TERMINAL -->
+                <div class="mentor-terminal cyber-card">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-buttons">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <span class="terminal-title">
+                            training_console
+                        </span>
+
+                    </div>
+
+
+                    <div class="terminal-body">
+
+                        <span class="terminal-command">
+                            ./start_training.sh
+                        </span>
+
+                        <span>
+                            [✓] Ethical Hacking
+                        </span>
+
+                        <span>
+                            [✓] VAPT
+                        </span>
+
+                        <span>
+                            [✓] Security Fundamentals
+                        </span>
+
+                        <span>
+                            [✓] Practical Labs
+                        </span>
+
+                        <span>
+                            [✓] Cybersecurity Awareness
+                        </span>
+
+                        <span class="terminal-info">
+                            [INFO] Building the next generation of
+                            cybersecurity professionals...
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 RIGHT IMAGE COLLAGE
+            ========================== -->
+
+            <div class="mentoring-gallery">
+
+
+                <!-- IMAGE 01 -->
+                <div class="mentor-image image-one">
+
+                    <img
+                        src="{{ url_for('static', filename='images/workshops/workshop-1.jpeg') }}"
+                        alt="Cybersecurity Training Session"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <span class="image-tag">
+                    </span>
+
+                </div>
+
+
+
+                <!-- IMAGE 02 -->
+                <div class="mentor-image image-two">
+
+                    <img
+                        src="{{ url_for('static', filename='images/workshops/workshop-2.jpeg') }}"
+                        alt="Cybersecurity Hands-on Lab"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <span class="image-tag">
+                       
+                    </span>
+
+                </div>
+
+
+
+                <!-- IMAGE 03 -->
+                <div class="mentor-image image-three">
+
+                    <img
+                        src="{{ url_for('static', filename='images/workshops/workshop-3.jpeg') }}"
+                        alt="Student Mentoring Session"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <span class="image-tag">
+                        
+                    </span>
+
+                </div>
+
+
+
+                <!-- IMAGE 04 -->
+                <div class="mentor-image image-four">
+
+                    <img
+                        src="{{ url_for('static', filename='images/workshops/workshop-4.jpeg') }}"
+                        alt="Cybersecurity Awareness Session"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <span class="image-tag">
+                        
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact"
+         class="section contact-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-number">
+                09
+            </span>
+
+
+            <div>
+
+
+                <span class="section-label">
+                    CONNECTION
+                </span>
+
+
+                <h2>
+
+                    Let's
+
+                    <strong>
+                        Connect
+                    </strong>
+
+                </h2>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="contact-grid">
+
+
+
+            <div class="contact-info">
+
+
+                <h3>
+                    Have a project or opportunity?
+                </h3>
+
+
+                <p>
+
+                    I'm interested in cybersecurity opportunities,
+                    collaborations, technical projects, and learning
+                    experiences.
+
+                </p>
+
+
+
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+                        TEL
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            Phone
+                        </small>
+
+
+                        <a href="tel:+918074178300">
+
+                            +91 8074178300
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+                        @
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            Email
+                        </small>
+
+
+                        <a href="mailto:sekharnaiyudu@gmail.com">
+
+                            sekharnaiyudu@gmail.com
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+                        LOC
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            Location
+                        </small>
+
+
+                        <span>
+                            Guntur, Andhra Pradesh
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+                        IN
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            LinkedIn
+                        </small>
+
+
+                        <a href="https://www.linkedin.com/in/jakka-sekharbabu/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            linkedin.com/in/jakka-sekharbabu
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+
+                    <span class="contact-icon">
+                        GH
+                    </span>
+
+
+                    <div>
+
+                        <small>
+                            GitHub
+                        </small>
+
+
+                        <a href="https://github.com/SekharNaiyudu"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            github.com/SekharNaiyudu
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="contact-terminal cyber-card">
+
+
+                <div class="terminal-header">
+
+
+                    <div class="terminal-buttons">
+
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <span class="terminal-title">
+                        secure_connection
+                    </span>
+
+
+                </div>
+
+
+
+                <div class="terminal-body">
+
+
+                    <p>
+
+                        <span class="terminal-red">
+                            visitor@portfolio
+                        </span>:~$ connect
+
+                    </p>
+
+
+                    <p class="terminal-output">
+                        Establishing secure connection...
+                    </p>
+
+
+                    <p class="terminal-output">
+                        Connection established.
+                    </p>
+
+
+                    <p>
+
+                        <span class="terminal-red">
+                            visitor@portfolio
+                        </span>:~$
+
+                        echo "Let's build something secure."
+
+                    </p>
+
+
+                    <p class="terminal-success">
+                        Let's build something secure.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+
+        <div>
+
+            <strong>
+                JAKKA SEKHAR BABU
+            </strong>
+
+
+            <p>
+                Cybersecurity Analyst
+            </p>
+
+        </div>
+
+
+        <p>
+            © 2026 Jakka Sekhar Babu. All Rights Reserved.
+        </p>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+
+    const preloader =
+        document.getElementById("preloader");
+
+
+    /*
+     * Give the browser enough time to render
+     * the initial portfolio page.
+     */
+
+    setTimeout(function () {
+
+
+        if (preloader) {
+
+            preloader.classList.add(
+                "preloader-hidden"
+            );
+
+        }
+
+
+        document.body.classList.add(
+            "site-loaded"
+        );
+
+
+    }, 1800);
+
+
+});
+
+</script>
+
+
+<script src="{{ url_for('static', filename='js/particles.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/animations.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/ai-assistant.js') }}?v=20260926-voice-final"></script>
+
+
+</body>
+
+</html>
